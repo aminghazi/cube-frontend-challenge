@@ -1,0 +1,62 @@
+
+.stepper .steps {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.stepper .steps .step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stepper .steps .step .step-number {
+    background-color: #b5c7f6;
+    color: #ffffff;
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 55px;
+    margin-bottom: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+.stepper .steps .step.active .step-number {
+    background-color: #396ce8;
+}
+
+.stepper .steps .step.completed .step-text {
+    color: #396ce8;
+}
+
+.stepper .step-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.stepper .step-footer button {
+    background-color: #396ce8;
+    border: none;
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: .3s;
+}
+
+.stepper .step-footer button:hover,
+.stepper .step-footer button:active {
+    background-color: #2055d6;
+}
+
+.stepper .step-footer button:disabled,
+.stepper .step-footer button[disabled] {
+    background-color: #b5c7f6;
+}

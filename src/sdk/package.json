@@ -1,0 +1,8 @@
+{
+  "name": "sdk",
+  "version": "1.0.0",
+  "description": "There is a dummy sdk package",
+  "main": "index.js",
+  "scripts": {
+  }
+}
